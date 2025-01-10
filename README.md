@@ -30,8 +30,7 @@ Follow these steps to set up and run the project locally:
 
 Clone this repository to your local machine:
 
-```bash
-git clone https://github.com/yourusername/breast-cancer-classification.git
+    git clone https://github.com/yourusername/breast-cancer-classification.git
 
 ### 2. Install the Dependencies
 
@@ -45,16 +44,15 @@ The following libraries are required:
 
 You can install them using the following command:
 
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Alternatively, install the dependencies individually:
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 3. Run the Project
 After installing the dependencies, run the script to start training and evaluating the model:
-```bash
-python breast_cancer_classification.py
+    ```
+    python breast_cancer_classification.py
 This will train the model, perform hyperparameter tuning, and display the evaluation results, including the classification report, confusion matrix, and ROC curve.
 
 ## Results
