@@ -47,9 +47,10 @@ You can install them using the following command:
     pip install -r requirements.txt
 
 Alternatively, install the dependencies individually:
-pip install pandas numpy scikit-learn matplotlib seaborn
 
-3. Run the Project
+    pip install pandas numpy scikit-learn matplotlib seaborn
+
+### 3. Run the Project
 After installing the dependencies, run the script to start training and evaluating the model:
     ```
     python breast_cancer_classification.py
